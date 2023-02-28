@@ -1,0 +1,31 @@
+.RightPart{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .miniNav{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        a{
+            width: 3rem;
+            height: 3rem;
+            display: flex;align-items: center;justify-content: center;
+            text-decoration: none;
+            border-radius: 50%;
+            background: rgb(24,196,228);
+            background: linear-gradient(328deg, rgba(24,196,228,1) 23%, rgba(33,255,43,1) 67%, rgba(228,75,24,1) 98%);
+              svg{
+                color: rgb(104, 71, 62);
+            width: 2rem;
+            height: 2rem;
+            
+        }
+        }
+      
+    }
+    .r-button{
+        height: 3rem;
+        width: 80%;
+        align-self: center;
+    }
+}

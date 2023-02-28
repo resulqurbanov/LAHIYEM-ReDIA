@@ -1,0 +1,126 @@
+.ProfileCard {
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1rem;
+    overflow-x: clip;
+    background: rgba(255, 255, 255, 0.64);
+width: 100%;
+    span {
+        cursor: pointer;
+    }
+    .profnav{
+        cursor: pointer;
+        display: flex; align-items: center;
+        justify-content: center;
+        padding-bottom: 15px;
+        color: rgb(57, 81, 0);
+        font-weight: 500 bold;
+        font-size: 20px;
+    }
+
+    .myprof {
+        font-weight: bold;
+        color: rgb(115, 255, 0);
+        align-self: center;
+        margin-bottom: 1rem;
+        cursor: pointer;
+    }
+
+    .ProfilImages {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        
+
+        img:nth-of-type(1) {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        img:nth-of-type(2) {
+            width: 6rem;
+            height: 6rem;
+            border-radius: 50%;
+            position: absolute;
+            bottom: -3rem;
+            box-shadow: rgba(11, 255, 3, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        }
+    
+
+
+    }
+
+    .ProfilName {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+        gap: 10px;
+
+        span:nth-of-type(1) {
+            font-weight: bold;
+        }
+
+    }
+
+
+    .followers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+
+        hr {
+            width: 85%;
+            border: 1px solid gray;
+        }
+
+        .ortadiv {
+            display: flex;
+            gap: 1rem;
+            width: 80%;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .xett {
+            height: 150%;
+            border-left: 2px solid #cfcdcd;
+        }
+
+        .follow {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+            align-items: center;
+            justify-content: center;
+
+            span:nth-of-type(1) {
+                font-weight: bold;
+            }
+
+            span:nth-of-type(2) {
+                color: gray;
+                font-size: 13px;
+            }
+
+            span {
+                font-weight: bold;
+                color: rgb(0, 26, 255);
+                align-self: center;
+                cursor: pointer;
+
+           
+            }
+        }
+    }
+
+}

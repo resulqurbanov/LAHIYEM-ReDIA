@@ -1,0 +1,28 @@
+.conversation {
+    border-radius: 1rem;
+    padding: 5px;
+    width: 100%;
+    &:hover {
+        background: #80808038;
+        cursor: pointer;
+    }
+
+    .mesaj_his {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+
+    
+    img{
+        border-radius: 50%;
+        width: 50px; 
+        height: 50px;
+        margin-right: 7px;
+    }
+    .name{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8rem;
+    }
+}}

@@ -1,0 +1,17 @@
+.UnfollowButton{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(98.63deg, #f92525 0%, #f99d35 100%);
+    border: none;
+    border-radius: 0.5rem;
+    transition: all 100ms ease-out;
+    &:hover{
+      background: linear-gradient(98.63deg, #f9cb35 0%, #f92525 100%);
+      background: transparent;
+      border: 2px solid #f93535;
+      color: #f9bb35;
+    }
+}
